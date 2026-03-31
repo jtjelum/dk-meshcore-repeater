@@ -1,0 +1,14 @@
+[Unit]
+Description=MeshCore Hub
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/meshcore-hub
+ExecStart=/home/pi/meshcore-hub/venv/bin/python3 /home/pi/meshcore-hub/meshcore_hub.py
+Restart=always
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
