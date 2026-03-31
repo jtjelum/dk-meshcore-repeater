@@ -181,8 +181,9 @@ python3 meshcore_mapper.py --input logs/mesh_export.json --output meshcore_map.h
 - Estimeret position for GPS-løse noder baseret på nabonodernes position
 
 ### Eksempel-output
+![Skærmbillede](https://github.com/user-attachments/assets/f025982b-d646-4722-9a1d-46cf94ecddf5)
 
-*(Indsæt screenshot af kortet her, eller link til en hosted HTML-version)*
+
 
 ---
 
@@ -199,9 +200,7 @@ python3 meshcore_mapper.py --input logs/mesh_export.json --output meshcore_map.h
 
 ## Planlagt
 
-- [ ] Handheld Commander-node (RAK19007 + RAK12500 GPS)
-- [ ] Hjemmebygget 4-sektion 868 MHz collinear antenne (~8 dBi, Aircell 7 kabel, fiberglas-hus)
-- [ ] Node ved Ammekær 74, Udsholt Strand (sommer-dækning, Gilleleje-området)
+- [ ] Automatisk gps output fra andet end manuelt udtræk af app
 - [ ] Automatisk RSSI-logging og tidsseriegraf i `meshcore_mapper.py`
 
 ---
